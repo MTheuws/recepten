@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Receptenformulier </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="categories">
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li style="float:right"><a class="active" href="recepten.html">contact</a></li>
+                <li><a href="index3.html">websites</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">about</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+
+    <main>
+        <h1>Receptenformulier</h1>
+        
+        <div class="form form input form textarea form button">
+        <form name="Recept" method="POST" data-netlify="true">
+            <p>
+            <label for="name">Naam:</label><br>
+            <input type="text" id="name" name="Naam:"/><br>
+            </p>
+            <p>
+            <label for="Email">Email:</label><br>
+            <input type="Email" id="email" name="Email:"/><br>
+            </p>
+            <p>
+            <label for="tel">Telefoonnummer:</label><br>
+            <input type="tel" id="tel" name="Telefoonnummer:"/><br>
+            </p>
+            <p>
+            <label for="date">Geboortedatum:</label><br>
+            <input type="date" id="date" name="Geboortedatum:"/><br>
+            </p>
+            <p>Geslacht:</p>
+            <p>
+            <input type="radio" id="man" name="geslacht" value="Man">
+            <label for="man">Man</label><br>
+            <input type="radio" id="vrouw" name="geslacht" value="Vrouw">
+            <label for="vrouw">Vrouw</label><br>
+            <input type="radio" id="genderneutraal" name="geslacht" value="Genderneutraal">
+            <label for="genderneutraal">Genderneutraal</label>
+            </p>
+            <p>Favoriete keuken:</p>
+            <p>
+                <input type="checkbox" id="keuken1" name="Frans" value="Frans">
+                <label for="keuken1"> Frans</label><br>
+                <input type="checkbox" id="keuken2" name="Italiaans" value="Italiaans">
+                <label for="keuken2"> Italiaans</label><br>
+                <input type="checkbox" id="keuken3" name="Spaans" value="Spaans">
+                <label for="keuken3"> Spaans</label>
+                <input type="checkbox" id="keuken4" name="Arabisch" value="Aranbisch">
+                <label for="keuken4"> Arabisch</label>
+            </p>
+            <p>Selecteer hier uw favoriete schortkleur:</p>
+            <p><input type="color">
+            </p>
+            <p>
+            <label for="texarea">Biografie, vertel hier iets meer over jezelf</label><br>
+            <textarea>
+            </textarea>
+            </p>
+            <p>Upload hier je laatste recept:</p>
+            <p>
+            <input type="file">   
+            </p>
+            <p>Deel hier je receptenwebsite</p>
+            <p>
+            <input type="url">
+            </p>
+            <button type="reset">Reset</button>
+            <p>
+            <button type="submit">verzend</button>
+            </p>
+        </form>
+        </div>
+    </main>
+
+    <footer>
+        <p> Deze html pagina's zijn geschreven als opdracht voor de cursus web development van de Winc academy</p>
+    </footer>
+
+</body>
+
+</html>
